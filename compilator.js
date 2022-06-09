@@ -24,7 +24,7 @@ const examples = [ // examples
     { str: "()[]]asdfasdf{asdfasdf{}asdfasdfasdf}" ,status: false},
     { str: "()[][]{}}" ,status: false},
     { str: "{()[][]{}}" ,status: true },
-    { str: "{()[][{}}" ,status: true },
+    { str: "{()[][{}}" ,status: false },
     { str: "{()[asdfasdf]asdfasdf[asdfasdf]{}" ,status: false},
 ]
 

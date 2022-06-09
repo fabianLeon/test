@@ -54,8 +54,3 @@ const beautifulPalindromic = (str) => {
     return getLen(mirror(str));
 }
 
-const calcBeautifulPalindromic = () => {
-    const valueString = document.getElementById('inputStrings');
-    console.log(beautifulPalindromic(valueString.value));
-
-}
